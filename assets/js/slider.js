@@ -20,10 +20,10 @@
         }
         var sliderOptions = {
             speed: 1000,
-            autoplay: false,
+            autoplay: true,
             delay: 1000,
             disableOnInteraction: false,
-            initialSlide: 0,
+            initialSlide: 1,
             parallax: false,
             mousewheel: false,
             loop: true,
