@@ -170,7 +170,7 @@
             spaceBetween: 50,
             slidesPerGroup: 1,
             loop: true,
-            autoplay: true,
+            autoplay: false,
             grabCursor: true,
             speed: 400,
             breakpoints: {
@@ -197,7 +197,7 @@
             spaceBetween: 50,
             slidesPerGroup: 1,
             loop: true,
-            autoplay: true,
+            autoplay:true,
             grabCursor: true,
             speed: 400,
             breakpoints: {
