@@ -59,33 +59,33 @@ START: Theme Video CSS
             }
         }
     }
-    .video-img{
-        position: relative;
-        img{
-            width: 100%;
-        }
-        .video-btn-wrap{
-            position: absolute;
-            top: 50%;
-            left: 0;
-            transform: translate(-50%, -50%);
-            @include breakpoint(sm){
-                left: 50%;
-            }
-            .video-btn{
-                background-color: var(--lt-color-theme-primary);
-                color: var(--lt-color-common-white);
-                font-size: 25px;
-                width: 80px;
-                height: 80px;
-                @include flex-center;
-                margin: 0 auto;
-                border-radius: 50%;
-                img{
-                    width: 30px;
-                    margin-left: 5px;
-                }
-            }
+    // .video-img{
+    //     position: relative;
+    //     img{
+    //         width: 100%;
+    //     }
+    //     .video-btn-wrap{
+    //         position: absolute;
+    //         top: 50%;
+    //         left: 0;
+    //         transform: translate(-50%, -50%);
+    //         @include breakpoint(sm){
+    //             left: 50%;
+    //         }
+    //         .video-btn{
+    //             background-color: var(--lt-color-theme-primary);
+    //             color: var(--lt-color-common-white);
+    //             font-size: 25px;
+    //             width: 80px;
+    //             height: 80px;
+    //             @include flex-center;
+    //             margin: 0 auto;
+    //             border-radius: 50%;
+    //             img{
+    //                 width: 30px;
+    //                 margin-left: 5px;
+    //             }
+    //         }
         }
     }
 }
