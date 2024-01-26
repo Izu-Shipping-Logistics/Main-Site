@@ -698,7 +698,7 @@ ul {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 @media only screen and (max-width: 991px) {
   .section-heading .section-title {
@@ -5695,7 +5695,7 @@ START: Theme Video CSS
   width: 100%;
   margin-left: 0; 
    margin-bottom: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 .video-box .video-img {
   position: relative;
@@ -7635,11 +7635,11 @@ img {
   }
 
 }
-.verticalLine {
+/* .verticalLine {
         border-left: 4px solid #4b42f5;
         height: 250px;
         position: absolute;
         left: 47%;
         margin-left: -3px;
         top: 117;
-      }
+      } */
