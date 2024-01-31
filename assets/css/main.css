@@ -5695,7 +5695,7 @@ START: Theme Video CSS
   width: 100%;
   margin-left: 0; 
    margin-bottom: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 .video-box .video-img {
   position: relative;
@@ -7643,3 +7643,5 @@ img {
         margin-left: -3px;
         top: 117;
       } */
+
+      
