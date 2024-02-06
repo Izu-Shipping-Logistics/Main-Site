@@ -7433,8 +7433,8 @@ img {
   border-radius: 50%;
 }
 .js-ag-active .ag-timeline-card_point {
-  color: #fff;
-  background-color:#2F5A6C;
+  color: #1d1d1b;
+  background-color: #FF0;
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
