@@ -7433,8 +7433,8 @@ img {
   border-radius: 50%;
 }
 .js-ag-active .ag-timeline-card_point {
-  color: #1d1d1b;
-  background-color: #FF0;
+  color: #fff;
+  background-color:#2F5A6C;
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
@@ -7445,7 +7445,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: #2f5a6c;
 }
 .ag-timeline-card_item {
   display: inline-block;
