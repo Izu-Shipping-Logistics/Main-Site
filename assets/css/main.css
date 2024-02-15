@@ -7345,8 +7345,12 @@ img {
   text-align: center;
 }
 .ag-timeline_tagline {
+  text-transform: uppercase;
+  font-weight: 700;
   font-size: 40px;
   color: rgb(84, 89, 95);
+  font-family: var(--lt-ff-heading);
+  color: var(--lt-color-heading-primary);
 }
 .ag-timeline_title {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
@@ -7400,7 +7404,7 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #FF0;
+  background-color:#fe5624;
 }
 
 .ag-timeline-card_box {
@@ -7420,7 +7424,7 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #FF0;
+  border:  --lt-color-border-3;
   background-color: #1d1d1b;
 
   text-align: center;
@@ -7433,19 +7437,19 @@ img {
   border-radius: 50%;
 }
 .js-ag-active .ag-timeline-card_point {
-  color: #1d1d1b;
-  background-color: #FF0;
+  color: var(--lt-color-common-white);
+  background-color:#fe5624;
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
 }
 .ag-timeline-card_meta {
   margin: 10px 0 0;
-
-  font-family: 'ESL Legend', sans-serif;
-  font-weight: bold;
-  font-size: 28px;
-  color: #2f5a6c;
+  font-weight: 700;
+  line-height: 1;
+  font-size: var(--lt-fs-h3);
+  font-family: var(--lt-ff-heading);
+  color: var(--lt-color-heading-primary);
 }
 .ag-timeline-card_item {
   display: inline-block;
@@ -7531,17 +7535,20 @@ img {
 .ag-timeline-card_title {
   display: none;
   margin: 10px 0 0;
-
-  font-family: 'ESL Legend', sans-serif;
+  font-family: var(--lt-ff-p);
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: #fe5624;
+  
 }
 .ag-timeline-card_desc {
-  line-height: 1.45;
-   
+  text-align: justify;
+  font-family: var(--lt-ff-p);
   font-size: 16px;
-  color: #FFF;
+  font-weight: var(--lt-fw-normal);
+  color: var(--lt-color-text-body);
+  margin-bottom: 15px;
+  line-height: 25px;
 }
 
 
@@ -7635,6 +7642,8 @@ img {
   }
 
 }
+ 
+
 /* .verticalLine {
         border-left: 4px solid #4b42f5;
         height: 250px;
