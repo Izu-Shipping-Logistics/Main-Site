@@ -190,9 +190,9 @@ input {
 }
 
 input[type=color] {
-  appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+  appearance: none;
   background: none;
   border: 0;
   cursor: pointer;
@@ -1311,12 +1311,12 @@ START: Theme Header CSS
 .sticky-header-wrap.fixed {
   background-color: var(--lt-color-common-white);
   display: block;
-  animation-name: menuSticky;
   -webkit-animation-name: menuSticky;
-  animation-duration: 1s;
   -webkit-animation-duration: 1s;
-  animation-timing-function: ease;
+  animation-name: menuSticky;
+  animation-duration: 1s;
   -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(17, 17, 17, 0.1);
           box-shadow: 0px 1px 3px 0px rgba(17, 17, 17, 0.1);
 }
@@ -2192,6 +2192,7 @@ START: Theme Outports CSS
   z-index: 1;
 }
 .outports-section .bg-map {
+  opacity: 0.6;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2449,7 +2450,7 @@ START: Theme About CSS
   margin-bottom: 12px;
 }
 .about-items .about-item .title {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -3778,6 +3779,8 @@ START: Theme Slider CSS
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+  -webkit-filter: brightness(30%);
+  filter: brightness(30%);
 }
 .slider-item .slider-content-wrap {
   position: absolute;
@@ -4867,6 +4870,7 @@ START: Theme Service CSS
   }
 }
 .service-section .service-bg {
+  opacity: 0.3;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -7546,7 +7550,7 @@ img {
   font-family: var(--lt-ff-p);
   font-size: 16px;
   font-weight: var(--lt-fw-normal);
-  color: var(--lt-color-text-body);
+  color: var(--lt-color-common-white);
   margin-bottom: 15px;
   line-height: 25px;
 }
