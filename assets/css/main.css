@@ -2426,12 +2426,17 @@ START: Theme About CSS
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-template-rows: repeat(2, 1fr);    /* Two rows with equal height */
+   
+  
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-column-gap: 80px;
      -moz-column-gap: 80px;
-          column-gap: 80px;
+          column-gap: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: 20px;

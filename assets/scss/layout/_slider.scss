@@ -215,6 +215,7 @@ START: Theme Slider CSS
         .slide-img-wrap{
             @include breakpoint(sm){
                 height: 650px;
+                 
             }
         }
     }
