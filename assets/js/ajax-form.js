@@ -17,7 +17,7 @@ $(function() {
 		// Submit the form using AJAX.
 		$.ajax({
 			type: 'POST',
-			url: $(form).attr('action'),
+			url: 'https://gmail.us21.list-manage.com/subscribe/post-json?u=0be5d1f09ecec46f8b38be645&amp;id=9523af2c14&amp;f_id=00ab37e7f0',
 			data: formData
 		})
 		.done(function(response) {
