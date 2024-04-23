@@ -1831,7 +1831,7 @@ START: Theme Header CSS
   position: relative;
 }
 .header-3 .header .header-bg .container div:nth-child(1):before {
-  background-color: var(--lt-color-theme-primary);
+  background-color: #FFEEE9;
   content: "";
   height: 100%;
   width: 3000px;
@@ -1886,7 +1886,7 @@ START: Theme Header CSS
   }
 }
 .header-3 .header .main-header-inner .main-header-left:before {
-  background-color: var(--lt-color-theme-primary);
+  background-color: #FFEEE9;
   content: "";
   width: 127px;
   height: 127px;
@@ -1896,8 +1896,8 @@ START: Theme Header CSS
   z-index: -1;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-  -webkit-box-shadow: 0px 0px 0px 8px rgba(254, 86, 36, 0.5);
-          box-shadow: 0px 0px 0px 8px rgba(254, 86, 36, 0.5);
+  -webkit-box-shadow: 0px 0px 0px 8px #FFEEE9;
+          box-shadow: 0px 0px 0px 8px #FFEEE9;
 }
 @media only screen and (max-width: 991px) {
   .header-3 .header .main-header-inner .main-header-left:before {
@@ -7305,34 +7305,34 @@ body {
 
 @font-face {
   font-family: 'ESL Legend';
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix) format("embedded-opentype"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2) format("woff2"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff) format("woff"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf) format("truetype"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon) format("svg");
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Light.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Light.eot#iefix) format("embedded-opentype"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Light.woff2) format("woff2"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Light.woff) format("woff"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Light.ttf) format("truetype"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Light.svg#eicon) format("svg");
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
   font-family: 'ESL Legend';
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix) format("embedded-opentype"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2) format("woff2"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff) format("woff"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf) format("truetype"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon) format("svg");
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Regular.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Regular.eot#iefix) format("embedded-opentype"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Regular.woff2) format("woff2"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Regular.woff) format("woff"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Regular.ttf) format("truetype"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Regular.svg#eicon) format("svg");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'ESL Legend';
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix) format("embedded-opentype"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2) format("woff2"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff) format("woff"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf) format("truetype"),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon) format("svg");
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Bold.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Bold.eot#iefix) format("embedded-opentype"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Bold.woff2) format("woff2"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Bold.woff) format("woff"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Bold.ttf) format("truetype"),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/font/legend/ESLLegend-Bold.svg#eicon) format("svg");
   font-style: normal;
   font-weight: bold;
 }

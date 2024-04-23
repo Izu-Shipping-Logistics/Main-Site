@@ -2581,7 +2581,7 @@
  * Jump Animation
  * ----------------------------------------
  */
-@-webkit-keyframes jump {
+}@-webkit-keyframes jump {
   20% {
     -webkit-transform: translateY(2%) scaleY(0.9);
             transform: translateY(2%) scaleY(0.9);
